@@ -10,7 +10,7 @@ const Home = ({ decks }: { decks: Deck[] }) => {
 				<div className="flex flex-col gap-2">
 					{decks.map(({ name, id }) => (
 						<Link
-							href={"http://localhost:3000/decks/" + id}
+							href={"/decks/" + id}
 							key={id}
 							passHref
 						>
