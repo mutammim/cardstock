@@ -1,0 +1,1 @@
+{"decks":[{"id":"8ee076177b104e4b83befe02a2988c4c","name":"Sample deck","cards":[{"question":"**This is a question!**","answer":"\nThis is an answer.\n"},{"question":"**Markdown support is broad!**","answer":"\nThis app uses [react-markdown](https://github.com/remarkjs/react-markdown) and [remark-gfm](https://github.com/remarkjs/remark-gfm).\n"}]}]}
