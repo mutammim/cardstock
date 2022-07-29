@@ -29,7 +29,9 @@ function Deck({ cards }: Deck) {
 				className="prose-lg flex flex-1 justify-center overflow-auto"
 				remarkPlugins={[remarkGfm]}
 			>
-				{cards[currentCardIndex].question}
+				{currentCardIndex !== cards.length
+					? cards[currentCardIndex].question
+					: null}
 			</ReactMarkdown>
 		</div>
 	);
@@ -40,7 +42,9 @@ function Deck({ cards }: Deck) {
 				className="prose-lg flex flex-1 justify-center overflow-auto prose-ul:list-disc"
 				remarkPlugins={[remarkGfm]}
 			>
-				{cards[currentCardIndex].answer}
+				{currentCardIndex !== cards.length
+					? cards[currentCardIndex].answer
+					: null}
 			</ReactMarkdown>
 			<div className="flex gap-4">
 				<button
