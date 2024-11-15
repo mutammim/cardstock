@@ -1,5 +1,7 @@
 # Cardstock
 
+![Screenshot of Cardstock with a Fungi deck.](https://www.mutammim.com/cardstock.png)
+
 Cardsmooth is a smooth, minimal flashcards app where you write your flashcards in Notion!
 
 Each card is a toggle block: the always-visible part is the question, and the hidden part is the answer. Each deck is a page of a toggle blocks.
