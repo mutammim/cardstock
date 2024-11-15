@@ -12,7 +12,7 @@ Cardstock is still a bit work-in-progress. You can try and set it up, though!
 
 1. Setup a [Notion integration](https://www.notion.so/my-integrations), and make sure it's added as a viewer (at minimum) to any page you want Cardstock to access. An internal integration is fine.
 
-2. Open `scripts/config.json`. Set the `NOTION_TOKEN` variable to your Internal Integration Token. Add the IDs for the pages you want to use as your decks to the `pageIDs` variable. **Do not commit this file to a Git repo.** (I added it to .gitignore, so that'll hopefully not happen, anyways.)
+2. Open `scripts/config.json`. Set the `NOTION_TOKEN` variable to your Internal Integration Token as a string. Add the IDs for the pages you want to use as your decks to the `pageIDs` variable. (Even if it's just one ID, use an array of strings.) **Do not commit this file to a Git repo.** (I added it to .gitignore, so that'll hopefully not happen, anyways.)
 
 3. Run `scripts/generateData.js`. You should have a data file in the top-level project folder, called `data.json`. If the file ended up somewhere else, just move it to the appropriate location.
 
